@@ -17,4 +17,4 @@ Scenario: Exchanged items should be returned to inventory.
     When they exchange the blue garment for a black garment
     Then I should have three blue garments in inventory
     And two black garments in inventory
-    Then making a change
+    And I should make a change as a Jira user
