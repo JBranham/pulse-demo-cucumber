@@ -26,4 +26,9 @@ public class Add_Items_back_to_InventoryStep {
     public void I_should_have_four_black_sweaters_in_inventory() throws Throwable {
         Assert.assertEquals(true, true);
     }
+
+    @Then("^I made a change$")
+    public void I_made_a_change() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
 }
